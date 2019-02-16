@@ -1,4 +1,4 @@
-version: "3.7"
+version: "3.6"
 
 services:
   mysql-db:
@@ -9,7 +9,7 @@ services:
       MYSQL_PASSWORD: dbuserpwd
       MYSQL_DATABASE: boilerplate_db
     ports:
-      - "3306:3306"
+      - "3307:3306"
     expose:
       - "3306"
     volumes:
